@@ -1,0 +1,43 @@
+.input_field {
+	border-radius: 15px;
+	border: none;
+	width: 200px;
+	height: 40px;
+	margin-top: 15px;
+	color: lightblue;
+
+	caret-color: lightblue;
+}
+
+.input_field:focus {
+	border: none;
+	outline: none;
+}
+
+.input_field::placeholder {
+	color: lightblue;
+}
+
+.add_button {
+	color: white;
+	background-color: lightblue;
+	position: relative;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	z-index: 1;
+	cursor: pointer;
+	
+	right: 50px;
+	transition: 0.3s;
+}
+
+.add_button:hover {
+	background-color: #658e9c;
+	box-shadow: 0 0 10px lightblue;
+}
+
+.add_button:active {
+	transform: scale(0.98);
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.8);
+}
