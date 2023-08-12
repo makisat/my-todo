@@ -4,7 +4,9 @@
 	width: 200px;
 	height: 40px;
 	margin-top: 15px;
+	margin-left: 32px;
 	color: lightblue;
+	padding-left: 10px;
 
 	caret-color: lightblue;
 }
@@ -41,3 +43,43 @@
 	transform: scale(0.98);
 	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.8);
 }
+
+.list {
+	list-style-type: none;
+	color: lightblue;
+	background-color: white;
+	border-radius: 8px;
+	display: inline-block;
+	padding: 3px;
+	margin: 10px;
+}
+
+.todo_lists {
+	list-style: none;
+	padding-left: 0;
+}
+
+.todo_parent {
+	width: 280px;
+	margin: auto;
+}
+
+.list li {
+	display: inline;
+}
+
+.list button {
+	border: none;
+	border-radius: 5px;
+	display: inline;
+	margin: 0 3px;
+	padding: 0 3px;
+	color: white;
+	background-color: lightblue;
+	cursor: pointer;
+}
+
+.list button:hover {
+	background-color: pink;
+}
+
